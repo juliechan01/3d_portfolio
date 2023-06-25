@@ -3,18 +3,18 @@ import {
     backend,
     creator,
     web,
-    javascript,
-    typescript,
+    javascript, 
+    bootstrap,
     html,
     css,
+    python,
+    flask,
+    java,
+    spring,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -73,24 +73,32 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
+    }, 
+    {
+      name: "Flask",
+      icon: flask,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Spring",
+      icon: spring,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "MongoDB",
@@ -103,15 +111,7 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [

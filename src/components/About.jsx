@@ -17,7 +17,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a full stack developer with experience in Markdown, HTML/CSS, Python, Java, and fullstack JS/MERN. I love to learn new things by exploring Youtube tutorials (such as the one for making my portfolio) so I can stretch myself and exceed expectations when the need arises. Let's work together to make your ideas become a reality!
+        Full stack developer with a preference for front-end development. Loves seeking challenges and coming up with creative solutions. Let's work together to make your ideas become a reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
