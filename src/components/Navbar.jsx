@@ -60,11 +60,11 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={nav.title === 'Download Resume' ? '#' : `#${nav.id}`}
+              <a href={nav.title === 'Resume' ? '#' : `#${nav.id}`}
                 onClick={() => {
                   setToggle(!toggle);
                   setActive(nav.title);
-                  if (nav.title === "Download Resume") {
+                  if (nav.title === "Resume") {
                     downloadResume();
                   }
                 }}
@@ -98,12 +98,12 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
-                    if (nav.title === 'Download Resume') {
+                    if (nav.title === 'Resume') {
                       downloadResume();
                     }
                   }}
                 >
-                  <a href={nav.title === 'Download Resume' ? '#' : `#${nav.id}`}>{nav.title}</a>
+                  <a href={nav.title === 'Resume' ? '#' : `#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>
