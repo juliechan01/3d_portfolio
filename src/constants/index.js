@@ -20,7 +20,7 @@ import {
     // },
     {
       id: "resume",
-      title: "Download Resume",
+      title: "Resume",
     },
     {
       id: "contact",
