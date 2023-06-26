@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { logopng } from '../assets';
 import { styles } from '../style';
 import { ComputersCanvas } from './canvas';
 
@@ -13,7 +12,8 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#ED7EDC]'>Julie</span>
+          <h1 className={`${styles.heroHeadText} text-white`}> 👋🏼 Hi, I'm 
+            <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"> Julie</span>
           </h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>

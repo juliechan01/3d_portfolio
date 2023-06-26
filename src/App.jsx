@@ -1,5 +1,7 @@
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
+import 'tailwindcss/tailwind.css';
 
 const App = () => {
   return (
@@ -12,7 +14,7 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
+        <Works path='/#projects'/>
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

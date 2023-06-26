@@ -1,4 +1,3 @@
-import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
@@ -17,7 +16,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Full stack developer with a preference for front-end development. Loves seeking challenges and coming up with creative solutions. Let's work together to make your ideas become a reality!
+        Welcome to my portfolio! I am an upcoming graduate at Coding Dojo finishing the full stack software development program. I have a preference for front-end development! I love seeking challenges and coming up with creative solutions. Let's work together to make your ideas become a reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -31,7 +30,7 @@ const About = () => {
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
+    <div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
@@ -53,7 +52,7 @@ const ServiceCard = ({ index, title, icon }) => (
           {title}
         </h3>
       </div>
-    </motion.div>
+    </div>
   </Tilt>
 );
 

@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logopng, menu, close } from "../assets";
+import resume from '../assets/JulieChan_softwaredev_resume.pdf';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const downloadResume = () => {
+    console.log("Downloading resume...")
+    const downloadLink = document.createElement("a");
+    downloadLink.href = resume;
+    downloadLink.download = 'JulieChan_resume.pdf';
+    downloadLink.target = '_blank';
+    downloadLink.click();
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,13 +35,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
-      }`}
-    >
+    <nav className={`${ styles.paddingX } w-full flex items-center py-5 fixed top-0 z-20 ${ scrolled ? "bg-primary" : "bg-transparent" }`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
@@ -57,7 +60,17 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={nav.title === 'Download Resume' ? '#' : `#${nav.id}`}
+                onClick={() => {
+                  setToggle(!toggle);
+                  setActive(nav.title);
+                  if (nav.title === "Download Resume") {
+                    downloadResume();
+                  }
+                }}
+              >
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -85,9 +98,12 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
+                    if (nav.title === 'Download Resume') {
+                      downloadResume();
+                    }
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a href={nav.title === 'Download Resume' ? '#' : `#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>
@@ -95,7 +111,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
+  )
 };
 
 export default Navbar;

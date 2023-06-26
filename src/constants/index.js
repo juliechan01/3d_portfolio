@@ -1,30 +1,10 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript, 
-    bootstrap,
-    html,
-    css,
-    python,
-    flask,
-    java,
-    spring,
-    reactjs,
-    nodejs,
-    mongodb,
-    git,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
+  mobile, backend, creator, web,
+  javascript, html, css, reactjs, nodejs, mongodb, python, flask, java, spring, mysql, bootstrap, threejs, git,
+  costamesa, sunglass, bonterra, umih,
+  carrent, jobit, tripguide
+} from "../assets";
+
   export const navLinks = [
     {
       id: "about",
@@ -33,6 +13,14 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    // {
+    //   id: "projects",
+    //   title: "Projects"
+    // },
+    {
+      id: "resume",
+      title: "Download Resume",
     },
     {
       id: "contact",
@@ -73,22 +61,6 @@ import {
       icon: javascript,
     },
     {
-      name: "Python",
-      icon: python,
-    }, 
-    {
-      name: "Flask",
-      icon: flask,
-    },
-    {
-      name: "Java",
-      icon: java,
-    },
-    {
-      name: "Spring",
-      icon: spring,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -97,12 +69,32 @@ import {
       icon: nodejs,
     },
     {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Flask",
+      icon: flask,
+    },
+    {
+      name: "Java",
+      icon: java,
+    }, 
+    {
+      name: "Spring",
+      icon: spring,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "Three JS",
@@ -111,60 +103,57 @@ import {
     {
       name: "git",
       icon: git,
-    }
+    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Administrative Assistant",
+      company_name: "City of Costa Mesa - Finance Dept",
+      icon: costamesa,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2023 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Quickly learned how to use PeopleSoft Analytics to assist in budget transfers, authorizations and calculate budget projections",
+        "Conducted various administrative tasks to support main staff such as compiling information to create agenda staff reports and updating documents on the database, Gravity",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Luxury Sales Associate",
+      company_name: "House of Sun, City of Costa Mesa, CA",
+      icon: sunglass,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2022 - PRESENT",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Helped new and existing customers by informing them of current promotions and store layout",
+        "Conducted sunglass repairs if necessary",
+        "Responsible for closing procedures such as creating cash deposits ta the end of the business day, ensuring inventory and overall store is organized",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Business Development Representative",
+      company_name: "Bonterra Tech - Social Solutions",
+      icon: bonterra,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jun 2022 - Sept 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Qualified inbound &outbound leads and was able to bring in $60,000 in revenue within 2 weeks",
+        "Made cold calls with nonprofit organizations to qualify and book more sets for Account Executives to fulfill quota",
+        "Learned how to operate Salesforce, Outreach, Gong, &Intercom in order to interact with prospective clients and explain how our software can help them overcome the challenges that stem from messy data",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Medical Administrator II",
+      company_name: "United Medical Imaging Healthcare - Garden Grove",
+      icon: umih,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2021 - Jun 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Quickly learned different procedures for the different types of modalities offered onsite",
+        "Scheduled patients' appointments and performed insurance verification when needed",
+        "Organized patients' files to increase workflow efficiency and to keep information up to date at all times", 
+        "Coordinate with other healthcare providers and insurance companies to ensure quality of care for the patient", 
+        "Learned how to operate the patient database CareStream",
       ],
     },
   ];
@@ -172,27 +161,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Julie has a great go-getter energy to her! She's adamant about achieving success and greatness in all of her work. She's a team player and is always is a hand raiser focusing on getting the job done. Our time together has been great and I admire the strides Julie has always put out for herself to achieve.",
+      name: "Elih North",
+      designation: "Business Development Representative",
+      company: "Bonterra Tech",
+      image: "https://media.licdn.com/dms/image/D5635AQHXOjcRyWyntg/profile-framedphoto-shrink_200_200/0/1684542882069?e=1688371200&v=beta&t=0fVZeyIxjyv1axmDOspw5HSRhrWh-_51kjIVPUrhpxY",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I’ve had the pleasure of working with many professionals in our line of work, but Julie is someone who I will always remember fondly. I started my career working alongside Julie. I learned a lot from Julie. She’s always willing to lend a hand to anyone who needs it. Her ability to overcome challenges with a smile made her stand out as a cut above the rest. A true blessing to have on the team!",
+      name: "Andres Pina",
+      designation: "Business Development Representative",
+      company: "Bonterra Tech",
+      image: "https://media.licdn.com/dms/image/D5603AQGysruLztNGvQ/profile-displayphoto-shrink_200_200/0/1665671066110?e=1693440000&v=beta&t=J06UmMIhd3djXRPC7XGfwoXnRonACyLQ4PzywuAELjY",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Julie is an enjoyable individual to work with. She is very eager to learn new areas of HR and communications planning and does excellent work expanding marketing efforts through her independent entrepreneurship. As someone who has known her for a long time, she is a specialist with her time divided across several responsibilities, it is notable that she is still able to balance humor with professionalism.",
+      name: "Aldy Hong",
+      designation: "Campaign Finance and Compliance Associate",
+      company: "Kalik & Associates",
+      image: "https://media.licdn.com/dms/image/C4E03AQGGxc2mZoTjtg/profile-displayphoto-shrink_200_200/0/1559170233213?e=1693440000&v=beta&t=mR6zSD3PZBw4-1KAYIEEhwLQaQ4sy0Ypx86dgMn9nF0",
     },
   ];
   
