@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am<span><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=30&pause=1000&color=ED7EDC&width=435&lines=a+full+stack+developer.;a+studen+forever.;a+v+++i+++s+++i+++o+++n+++a+++r+++y+++.+++.+++.+" alt="Typing SVG" /></a></span>
+            I am<span><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=30&pause=1000&color=ED7EDC&width=435&lines=a+full+stack+developer.;a+student+forever.;a+v+++i+++s+++i+++o+++n+++a+++r+++y+++.+++.+++.+" alt="Typing SVG" /></a></span>
           </p>
         </div>
       </div>
