@@ -2,7 +2,6 @@ import { useState, useRef, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial, Preload } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
-import { positions } from '@mui/system';
 
 const Stars = (props) => {
   const ref = useRef();
