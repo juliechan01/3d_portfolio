@@ -1,7 +1,7 @@
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
-import { github, hackerrank, leetcode, linkedin } from '../assets';
+import { github, hackerrank, leetcode, linkedin } from "../assets";
 import { SectionWrapper } from '../hoc';
 import { projects, myGithub, myLinkedIn, hackerRank, leetCode } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
