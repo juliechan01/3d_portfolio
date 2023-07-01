@@ -5,6 +5,11 @@ import {
   carrent, jobit, tripguide
 } from "../assets";
 
+  export const myGithub = "https://github.com/juliechan01";
+  export const myLinkedIn = "https://www.linkedin.com/in/juliechan2/";
+  export const hackerRank = "https://www.hackerrank.com/juliechan03?hr_r=1";
+  export const leetCode = "https://leetcode.com/juliechan03/";
+
   export const navLinks = [
     {
       id: "about",
