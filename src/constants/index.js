@@ -19,10 +19,6 @@ import {
       id: "work",
       title: "Work",
     },
-    // {
-    //   id: "projects",
-    //   title: "Projects"
-    // },
     {
       id: "resume",
       title: "Resume",
@@ -192,9 +188,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "TxtMood Detect",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that can detect the mood of the text you input - WIP",
       tags: [
         {
           name: "react",
@@ -210,7 +206,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juliechan01/txtmood_detect",
     },
     {
       name: "Job IT",
