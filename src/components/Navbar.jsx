@@ -64,7 +64,7 @@ const Navbar = () => {
                 onClick={() => {
                   setToggle(!toggle);
                   setActive(nav.title);
-                  if (nav.title === 'Resume') {
+                  if (nav.title === "Download Resume") {
                     downloadResume();
                   }
                 }}

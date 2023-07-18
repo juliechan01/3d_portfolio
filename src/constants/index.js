@@ -190,7 +190,7 @@ import {
     {
       name: "TxtMood Detect",
       description:
-        "A web application that can detect the mood of the text you input & track your current mood at time of input [v1]",
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
           name: "react",
@@ -205,8 +205,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: txthomepage,
-      source_code_link: "https://github.com/juliechan01/txtmood_detect",
+      image: carrent,
+      source_code_link: "https://github.com/",
     },
     {
       name: "Job IT",
