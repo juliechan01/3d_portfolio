@@ -2,8 +2,13 @@ import {
   mobile, backend, creator, web,
   javascript, html, css, reactjs, nodejs, mongodb, python, flask, java, spring, mysql, bootstrap, threejs, git,
   costamesa, sunglass, bonterra, umih,
-  carrent, jobit, tripguide
+  txthomepage, jobit, tripguide
 } from "../assets";
+
+  export const myGithub = "https://github.com/juliechan01";
+  export const myLinkedIn = "https://www.linkedin.com/in/juliechan2/";
+  export const hackerRank = "https://www.hackerrank.com/juliechan03?hr_r=1";
+  export const leetCode = "https://leetcode.com/juliechan03/";
 
   export const navLinks = [
     {
@@ -14,10 +19,6 @@ import {
       id: "work",
       title: "Work",
     },
-    // {
-    //   id: "projects",
-    //   title: "Projects"
-    // },
     {
       id: "resume",
       title: "Resume",
@@ -187,9 +188,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "TxtMood Detect",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web application that can detect the mood of the text you input & track your current mood at time of input [v1]",
       tags: [
         {
           name: "react",
@@ -204,8 +205,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: txthomepage,
+      source_code_link: "https://github.com/juliechan01/txtmood_detect",
     },
     {
       name: "Job IT",

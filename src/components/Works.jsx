@@ -1,9 +1,9 @@
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
-import { github } from '../assets';
+import { github, hackerrank, leetcode, linkedin } from "../assets";
 import { SectionWrapper } from '../hoc';
-import { projects } from '../constants';
+import { projects, myGithub, myLinkedIn, hackerRank, leetCode } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
@@ -39,7 +39,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
 
 const Works = () => {
   return (
-    <div>
+    <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
@@ -59,7 +59,67 @@ const Works = () => {
           <ProjectCard key = {`project-${index}`} index= {index} {...project} />
         ))}
       </div>
-    </div>
+
+      <div className="w-full flex flex-col items-center justify-center">
+          <div>
+            <p className="mt-24 text-secondary text-[21px] max-w-3xl leading-[30px] text-center">
+              Liking what you see so far? Feel free to also connect with me on GitHub & LinkedIn with the
+              links below.
+            </p>
+          </div>
+
+          <div className="w-full flex flex-row items-center justify-center">
+            <div
+              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
+              onClick={() => window.open(myGithub, "_blank")}>
+              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                <img
+                  src={github}
+                  alt="source code"
+                  className="w-[40px] h-[40px] object-contain"
+                />
+                <p className="text-[21px]">GitHub</p>
+              </div>
+            </div>
+            <div
+              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
+              onClick={() => window.open(myLinkedIn, "_blank")}>
+              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                <img
+                  src={linkedin}
+                  alt="source code"
+                  className="w-[40px] h-[40px] object-contain"
+                />
+                <p className="text-[21px]">LinkedIn</p>
+              </div>
+            </div>
+            <div
+              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
+              onClick={() => window.open(hackerRank, "_blank")}>
+              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                <img
+                  src={hackerrank}
+                  alt="source code"
+                  className="w-[40px] h-[40px] object-contain"
+                />
+                <p className="text-[21px]">HackerRank</p>
+              </div>
+            </div>
+            <div
+              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none"
+              onClick={() => window.open(leetCode, "_blank")}>
+              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                <img
+                  src={leetcode}
+                  alt="source code"
+                  className="w-[40px] h-[40px] object-contain"
+                />
+                <p className="text-[21px]">LeetCode</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </>
   )
 }
 

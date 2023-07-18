@@ -4,6 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from "./linkedin.png";
+import hackerrank from "./hackerrank.png";
+import leetcode from "./leetcode.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -27,7 +30,7 @@ import sunglass from "./company/sunglass.png";
 import bonterra from "./company/bonterra.png";
 import umih from "./company/umih.png";
 
-import carrent from "./carrent.png";
+import txthomepage from "./homepage.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -38,6 +41,9 @@ export {
   creator,
   mobile,
   web,
+  hackerrank,
+  leetcode,
+  linkedin,
   github,
   menu,
   close,
@@ -58,7 +64,7 @@ export {
   sunglass,
   bonterra,
   umih,
-  carrent,
+  txthomepage,
   jobit,
   tripguide,
 };
