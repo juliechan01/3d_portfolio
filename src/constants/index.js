@@ -205,8 +205,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: txthomepage,
+      source_code_link: "https://github.com/juliechan01/txtmood_detect.git",
     },
     {
       name: "Job IT",
