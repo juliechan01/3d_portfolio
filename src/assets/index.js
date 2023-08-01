@@ -31,7 +31,7 @@ import bonterra from "./company/bonterra.png";
 import umih from "./company/umih.png";
 
 import txthomepage from "./homepage.png";
-import jobit from "./jobit.png";
+import yiiphomepage from "./yiip_home.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -65,6 +65,6 @@ export {
   bonterra,
   umih,
   txthomepage,
-  jobit,
+  yiiphomepage,
   tripguide,
 };

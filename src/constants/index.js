@@ -2,7 +2,7 @@ import {
   mobile, backend, creator, web,
   javascript, html, css, reactjs, nodejs, mongodb, python, flask, java, spring, mysql, bootstrap, threejs, git,
   costamesa, sunglass, bonterra, umih,
-  txthomepage, jobit, tripguide
+  txthomepage, yiiphomepage, tripguide
 } from "../assets";
 
   export const myGithub = "https://github.com/juliechan01";
@@ -197,11 +197,15 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node.js",
           color: "pink-text-gradient",
         },
       ],
@@ -209,25 +213,37 @@ import {
       source_code_link: "https://github.com/juliechan01/txtmood_detect.git",
     },
     {
-      name: "Job IT",
+      name: "Yiip",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that allows users to look up businesses, create pages for new ones, and update/delete them if needed.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "next.js",
+          color: "blue-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: yiiphomepage,
+      source_code_link: "https://github.com/yiip-webapp/yiip-nextjs.git",
     },
     {
       name: "Trip Guide",
