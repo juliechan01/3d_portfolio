@@ -16,7 +16,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Welcome to my portfolio! I am an upcoming graduate at Coding Dojo finishing the full stack software development program. I have a preference for front-end development! I love seeking challenges and coming up with creative solutions. Let's work together to make your ideas become a reality!
+        Welcome to my portfolio! I am a recent graduate at Coding Dojo finishing the full stack software development program. I have a preference for front-end development yet am still open to doing full-stack work! I love seeking challenges and coming up with creative solutions. Let's work together to make your ideas become a reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

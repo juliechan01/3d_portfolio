@@ -166,7 +166,7 @@ import {
       name: "Elih North",
       designation: "Business Development Representative",
       company: "Bonterra Tech",
-      image: "https://media.licdn.com/dms/image/D5635AQHXOjcRyWyntg/profile-framedphoto-shrink_200_200/0/1684542882069?e=1688371200&v=beta&t=0fVZeyIxjyv1axmDOspw5HSRhrWh-_51kjIVPUrhpxY",
+      image: "https://media.licdn.com/dms/image/C5603AQEAb_Q3vIJOhg/profile-displayphoto-shrink_200_200/0/1654813301664?e=1696464000&v=beta&t=oqHbg2b4uGUdaSKDbjQLPruoczPCURsIcTxwmOByjlE",
     },
     {
       testimonial:
