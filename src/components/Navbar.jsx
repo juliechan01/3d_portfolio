@@ -3,21 +3,20 @@ import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logopng, menu, close } from "../assets";
-import resume from '../assets/Julie Chan - software dev resume.pdf';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const downloadResume = () => {
-    console.log("Downloading resume...")
-    const downloadLink = document.createElement("a");
-    downloadLink.href = resume;
-    downloadLink.download = 'JulieChan_resume.pdf';
-    downloadLink.target = '_blank';
-    downloadLink.click();
-  };
+  // const downloadResume = () => {
+  //   console.log("Downloading resume...")
+  //   const downloadLink = document.createElement("a");
+  //   downloadLink.href = resume;
+  //   downloadLink.download = 'JulieChan_resume.pdf';
+  //   downloadLink.target = '_blank';
+  //   downloadLink.click();
+  // };
 
   useEffect(() => {
     const handleScroll = () => {

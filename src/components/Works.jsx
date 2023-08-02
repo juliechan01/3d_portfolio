@@ -37,7 +37,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
   )
 }
 
-const Works = () => {
+const Works = ({ index }) => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -69,55 +69,66 @@ const Works = () => {
           </div>
 
           <div className="w-full flex flex-row items-center justify-center">
-            <div
-              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
-              onClick={() => window.open(myGithub, "_blank")}>
-              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
-                <img
-                  src={github}
-                  alt="source code"
-                  className="w-[40px] h-[40px] object-contain"
-                />
-                <p className="text-[21px]">GitHub</p>
+            <Tilt variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
+              <div
+                className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
+                onClick={() => window.open(myGithub, "_blank")}>
+                <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                  <img
+                    src={github}
+                    alt="source code"
+                    className="w-[40px] h-[40px] object-contain rounded-full"
+                  />
+                  <p className="text-[21px] p-2">GitHub</p>
+                </div>
               </div>
+            </Tilt>
+
+              <Tilt variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
+                <div
+                  className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
+                  onClick={() => window.open(myLinkedIn, "_blank")}>
+                  <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                    <img
+                      src={linkedin}
+                      alt="source code"
+                      className="w-[40px] h-[40px] object-contain rounded-full"
+                    />
+                    <p className="text-[21px] p-2">LinkedIn</p>
+                  </div>
+                </div>
+              </Tilt>
+
+              <Tilt variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
+                <div
+                  className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
+                  onClick={() => window.open(hackerRank, "_blank")}>
+                  <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                    <img
+                      src={hackerrank}
+                      alt="source code"
+                      className="w-[40px] h-[40px] object-contain rounded-full"
+                    />
+                    <p className="text-[21px] p-2">HackerRank</p>
+                  </div>
+                </div>
+              </Tilt>
+
+              <Tilt variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
+                <div
+                  className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none"
+                  onClick={() => window.open(leetCode, "_blank")}>
+                  <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
+                    <img
+                      src={leetcode}
+                      alt="source code"
+                      className="w-[40px] h-[40px] object-contain rounded-full"
+                    />
+                    <p className="text-[21px] p-2">LeetCode</p>
+                  </div>
+                </div>
+              </Tilt>
             </div>
-            <div
-              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
-              onClick={() => window.open(myLinkedIn, "_blank")}>
-              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
-                <img
-                  src={linkedin}
-                  alt="source code"
-                  className="w-[40px] h-[40px] object-contain"
-                />
-                <p className="text-[21px]">LinkedIn</p>
-              </div>
-            </div>
-            <div
-              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
-              onClick={() => window.open(hackerRank, "_blank")}>
-              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
-                <img
-                  src={hackerrank}
-                  alt="source code"
-                  className="w-[40px] h-[40px] object-contain"
-                />
-                <p className="text-[21px]">HackerRank</p>
-              </div>
-            </div>
-            <div
-              className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none"
-              onClick={() => window.open(leetCode, "_blank")}>
-              <div className="bg-tertiary rounded-full px-3 py-2 flex justify-evenly items-center">
-                <img
-                  src={leetcode}
-                  alt="source code"
-                  className="w-[40px] h-[40px] object-contain"
-                />
-                <p className="text-[21px]">LeetCode</p>
-              </div>
-            </div>
-          </div>
         </div>
     </>
   )

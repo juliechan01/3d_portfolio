@@ -19,10 +19,10 @@ import {
       id: "work",
       title: "Work",
     },
-    {
-      id: "resume",
-      title: "Resume",
-    },
+    // {
+    //   id: "resume",
+    //   title: "Resume",
+    // },
     {
       id: "contact",
       title: "Contact",
