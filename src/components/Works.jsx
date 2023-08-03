@@ -68,7 +68,7 @@ const Works = ({ index }) => {
             </p>
           </div>
 
-          <div className="w-full flex flex-row items-center justify-center">
+          <div className="w-full flex flex-wrap items-center justify-center">
             <Tilt variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
               <div
                 className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none mr-4"
