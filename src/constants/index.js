@@ -115,8 +115,7 @@ import {
       iconBg: "#383E56",
       date: "Feb 2023 - June 2023",
       points: [
-        "Quickly learned how to use PeopleSoft Analytics to assist in budget transfers, authorizations and calculate budget projections",
-        "Conducted various administrative tasks to support main staff such as compiling information to create agenda staff reports and updating documents on the database, Gravity",
+        "Assisted with budget transfers and authorizations which helped increase workflow efficiency by 40% and which also resulted in a new budget proposal finished before the deadline"
       ],
     },
     {
@@ -126,9 +125,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Nov 2022 - PRESENT",
       points: [
-        "Helped new and existing customers by informing them of current promotions and store layout",
-        "Conducted sunglass repairs if necessary",
-        "Responsible for closing procedures such as creating cash deposits ta the end of the business day, ensuring inventory and overall store is organized",
+        "Actively listened to customers to gauge their needs which increased the likelihood of closing the sale by 150%,therefore exceeding personal quota consistently",
       ],
     },
     {
@@ -138,9 +135,8 @@ import {
       iconBg: "#383E56",
       date: "Jun 2022 - Sept 2022",
       points: [
-        "Qualified inbound &outbound leads and was able to bring in $60,000 in revenue within 2 weeks",
-        "Made cold calls with nonprofit organizations to qualify and book more sets for Account Executives to fulfill quota",
-        "Learned how to operate Salesforce, Outreach, Gong, &Intercom in order to interact with prospective clients and explain how our software can help them overcome the challenges that stem from messy data",
+        "Qualified inbound & outbound leads by actively listening to non profit and healthcare organization needs and brought in $60,000 in revenue within 2 weeks",
+        "Effectively learned how to operate Salesforce, Gong, Outreach, and Intercom to interact and track prospective clients which increased likelihood of follow up by 100% and closing the sale by 80%",
       ],
     },
     {
@@ -150,11 +146,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2021 - Jun 2022",
       points: [
-        "Quickly learned different procedures for the different types of modalities offered onsite",
-        "Scheduled patients' appointments and performed insurance verification when needed",
-        "Organized patients' files to increase workflow efficiency and to keep information up to date at all times", 
-        "Coordinate with other healthcare providers and insurance companies to ensure quality of care for the patient", 
-        "Learned how to operate the patient database CareStream",
+        "Efficiently learned and memorized diverse on-site modalities and procedures to effectively manage the CareStream patient database, which enhanced workflow efficiency by 60% and increased number of appointments booked by 80%",
       ],
     },
   ];
