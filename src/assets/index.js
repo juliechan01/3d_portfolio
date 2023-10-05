@@ -32,7 +32,7 @@ import umih from "./company/umih.png";
 
 import txthomepage from "./homepage.png";
 import yiiphomepage from "./yiip_home.png";
-import tripguide from "./tripguide.png";
+import wip from "./wip.png";
 
 export {
   logopng,
@@ -66,5 +66,5 @@ export {
   umih,
   txthomepage,
   yiiphomepage,
-  tripguide,
+  wip,
 };

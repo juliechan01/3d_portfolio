@@ -2,7 +2,7 @@ import {
   mobile, backend, creator, web,
   javascript, html, css, reactjs, nodejs, mongodb, python, flask, java, spring, mysql, bootstrap, threejs, git,
   costamesa, sunglass, bonterra, umih,
-  txthomepage, yiiphomepage, tripguide
+  txthomepage, yiiphomepage, wip
 } from "../assets";
 
   export const myGithub = "https://github.com/juliechan01";
@@ -190,7 +190,7 @@ import {
         },
         {
           name: "tailwind",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "express.js",
@@ -200,6 +200,10 @@ import {
           name: "node.js",
           color: "pink-text-gradient",
         },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
       ],
       image: txthomepage,
       source_code_link: "https://github.com/juliechan01/txtmood_detect.git",
@@ -207,7 +211,7 @@ import {
     {
       name: "Yiip",
       description:
-        "Web application that allows users to look up businesses, create pages for new ones, and update/delete them if needed.",
+        "A web app that allows users to look up businesses, create pages for new ones, and update/delete them if needed.",
       tags: [
         {
           name: "react",
@@ -238,25 +242,58 @@ import {
       source_code_link: "https://github.com/yiip-webapp/yiip-nextjs.git",
     },
     {
-      name: "Trip Guide",
+      name: "DevDiscover Toolkit",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A web app that's a Product Hunt clone but for developers. Allows devs to rank developer resource usefulness.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: wip,
+      source_code_link: "https://github.com/DevDiscover-Toolkit/app",
+    },
+    {
+      name: "ShelterLink",
+      description:
+        "A web app that displays real time shelter bed availability.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: wip,
+      source_code_link: "https://github.com/shelter-link/app",
     },
   ];
   

@@ -75,7 +75,7 @@ const Contact = () => {
 
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea rows='7' name='message' value={form.message} onChange={handleChange} placeholder='What would you like to say?' className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'/>
+            <textarea rows='7' name='message' value={form.message} onChange={handleChange} placeholder='What would you like to say? Feel free to let me know here if you would like a copy of my resume!' className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'/>
           </label>
 
           <button type='submit' className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
