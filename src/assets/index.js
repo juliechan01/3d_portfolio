@@ -17,11 +17,13 @@ import reactjs from "./tech/reactjs.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import python from "./tech/python.png";
+import figma from "./tech/figma.png";
 import flask from "./tech/flask.png";
 import java from "./tech/java.png";
 import spring from "./tech/spring.png";
 import mysql from "./tech/mysql.png";
 import bootstrap from "./tech/bootstrap.png";
+import tailwind from "./tech/tailwind.png";
 import git from "./tech/git.png";
 import threejs from "./tech/threejs.svg";
 
@@ -48,6 +50,7 @@ export {
   menu,
   close,
   css,
+  figma,
   flask,
   git,
   html,
@@ -59,6 +62,7 @@ export {
   python,
   reactjs,
   spring,
+  tailwind,
   threejs,
   costamesa,
   sunglass,

@@ -9,15 +9,6 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // const downloadResume = () => {
-  //   console.log("Downloading resume...")
-  //   const downloadLink = document.createElement("a");
-  //   downloadLink.href = resume;
-  //   downloadLink.download = 'JulieChan_resume.pdf';
-  //   downloadLink.target = '_blank';
-  //   downloadLink.click();
-  // };
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -59,17 +50,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={nav.title === 'Resume' ? '#' : `#${nav.id}`}
-                onClick={() => {
-                  setToggle(!toggle);
-                  setActive(nav.title);
-                  if (nav.title === "Download Resume") {
-                    downloadResume();
-                  }
-                }}
-              >
-                {nav.title}
-              </a>
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -94,15 +75,8 @@ const Navbar = () => {
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                    if (nav.title === 'Resume') {
-                      downloadResume();
-                    }
-                  }}
                 >
-                  <a href={nav.title === 'Resume' ? '#' : `#${nav.id}`}>{nav.title}</a>
+                  <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>

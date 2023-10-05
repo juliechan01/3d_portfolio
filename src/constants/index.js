@@ -1,6 +1,6 @@
 import {
   mobile, backend, creator, web,
-  javascript, html, css, reactjs, nodejs, mongodb, python, flask, java, spring, mysql, bootstrap, threejs, git,
+  javascript, html, css, reactjs, nodejs, mongodb, python, flask, java, spring, mysql, bootstrap, tailwind, threejs, figma, git,
   costamesa, sunglass, bonterra, umih,
   txthomepage, yiiphomepage, wip
 } from "../assets";
@@ -20,8 +20,12 @@ import {
       title: "Work",
     },
     // {
-    //   id: "resume",
-    //   title: "Resume",
+    //   id: "projects",
+    //   title: "Projects",
+    // },
+    // {
+    //   id: "testimonials",
+    //   title: "Testimonials",
     // },
     {
       id: "contact",
@@ -98,11 +102,19 @@ import {
       icon: bootstrap,
     },
     {
+      name: "Tailwind",
+      icon: tailwind,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Figma",
+      icon: figma,
+    },
+    {
+      name: "Git",
       icon: git,
     },
   ];
