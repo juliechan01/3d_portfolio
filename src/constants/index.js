@@ -296,7 +296,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mysql",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
