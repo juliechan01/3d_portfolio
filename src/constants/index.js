@@ -1,8 +1,8 @@
 import {
   mobile, backend, creator, web,
   javascript, html, css, reactjs, nodejs, mongodb, python, flask, java, spring, mysql, bootstrap, tailwind, threejs, figma, git,
-  costamesa, sunglass, bonterra, umih,
-  txthomepage, yiiphomepage, wip
+  costamesa, sunglass, bonterra, umih, mercyhouse,
+  txthomepage, yiiphomepage, wip, studypal
 } from "../assets";
 
   export const myGithub = "https://github.com/juliechan01";
@@ -121,13 +121,15 @@ import {
   
   const experiences = [
     {
-      title: "Administrative Assistant",
-      company_name: "City of Costa Mesa - Finance Dept",
-      icon: costamesa,
+      title: "Housing Solutions Case Manager",
+      company_name: "Mercy House",
+      icon: mercyhouse,
       iconBg: "#383E56",
-      date: "Feb 2023 - June 2023",
+      date: "Oct 2023 - PRESENT",
       points: [
-        "Assisted with budget transfers and authorizations which helped increase workflow efficiency by 40% and which also resulted in a new budget proposal finished before the deadline"
+        "Effectively communicated with each client and their respective landlords in order to streamline services in an efficient manner",
+        "Analyzed client’s complex challenges, and helped create effective solutions to fit their requirements while abiding by program guidelines",
+        "Managed multiple caseloads efficiently while ensuring consistent updates to the client database"
       ],
     },
     {
@@ -138,6 +140,27 @@ import {
       date: "Nov 2022 - PRESENT",
       points: [
         "Actively listened to customers to gauge their needs which increased the likelihood of closing the sale by 150%,therefore exceeding personal quota consistently",
+      ],
+    },
+    {
+      title: "Receptionist",
+      company_name: "Mercy House",
+      icon: mercyhouse,
+      iconBg: "#383E56",
+      date: "Aug 2023 - Sept 2023",
+      points: [
+        "Resolved 80% of call inquiries by redirecting them to appropriate channels",
+        "Supported staff with office responsibilities to increase case management efficiency by 60%"
+      ],
+    },
+    {
+      title: "Administrative Assistant",
+      company_name: "City of Costa Mesa - Finance Dept",
+      icon: costamesa,
+      iconBg: "#383E56",
+      date: "Feb 2023 - June 2023",
+      points: [
+        "Assisted with budget transfers and authorizations which helped increase workflow efficiency by 40% and which also resulted in a new budget proposal finished before the deadline"
       ],
     },
     {
@@ -254,58 +277,29 @@ import {
       source_code_link: "https://github.com/yiip-webapp/yiip-nextjs.git",
     },
     {
-      name: "DevDiscover Toolkit",
+      name: "StudyPal",
       description:
         "A web app that's a Product Hunt clone but for developers. Allows devs to rank developer resource usefulness.",
       tags: [
         {
-          name: "react",
+          name: "next.js",
           color: "blue-text-gradient",
-        },
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "flask",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mysql",
-          color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
-      ],
-      image: wip,
-      source_code_link: "https://github.com/DevDiscover-Toolkit/app",
-    },
-    {
-      name: "ShelterLink",
-      description:
-        "A web app that displays real time shelter bed availability.",
-      tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "python",
-          color: "blue-text-gradient",
+          name: "node.js",
+          color: "pink-text-gradient",
         },
         {
           name: "firebase",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: wip,
-      source_code_link: "https://github.com/shelter-link/app",
+      image: studypal,
+      source_code_link: "https://github.com/study-pal",
     },
   ];
   

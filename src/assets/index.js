@@ -31,10 +31,12 @@ import costamesa from "./company/costamesa.png";
 import sunglass from "./company/sunglass.png";
 import bonterra from "./company/bonterra.png";
 import umih from "./company/umih.png";
+import mercyhouse from "./company/MercyHouse.png";
 
 import txthomepage from "./homepage.png";
 import yiiphomepage from "./yiip_home.png";
 import wip from "./wip.png";
+import studypal from "./studypal.png";
 
 export {
   logopng,
@@ -68,7 +70,9 @@ export {
   sunglass,
   bonterra,
   umih,
+  mercyhouse,
   txthomepage,
   yiiphomepage,
   wip,
+  studypal
 };
