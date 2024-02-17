@@ -137,7 +137,7 @@ import {
       company_name: "House of Sun, City of Costa Mesa, CA",
       icon: sunglass,
       iconBg: "#E6DEDD",
-      date: "Nov 2022 - PRESENT",
+      date: "Nov 2022 - Feb 2024",
       points: [
         "Actively listened to customers to gauge their needs which increased the likelihood of closing the sale by 150%,therefore exceeding personal quota consistently",
       ],
