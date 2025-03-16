@@ -127,51 +127,11 @@ import {
       iconBg: "#383E56",
       date: "Oct 2023 - PRESENT",
       points: [
-        "Effectively communicated with each client and their respective landlords in order to streamline services in an efficient manner",
-        "Analyzed client’s complex challenges, and helped create effective solutions to fit their requirements while abiding by program guidelines",
-        "Managed multiple caseloads efficiently while ensuring consistent updates to the client database"
-      ],
-    },
-    {
-      title: "Luxury Sales Associate",
-      company_name: "House of Sun, City of Costa Mesa, CA",
-      icon: sunglass,
-      iconBg: "#E6DEDD",
-      date: "Nov 2022 - Feb 2024",
-      points: [
-        "Actively listened to customers to gauge their needs which increased the likelihood of closing the sale by 150%,therefore exceeding personal quota consistently",
-      ],
-    },
-    {
-      title: "Receptionist",
-      company_name: "Mercy House",
-      icon: mercyhouse,
-      iconBg: "#383E56",
-      date: "Aug 2023 - Sept 2023",
-      points: [
-        "Resolved 80% of call inquiries by redirecting them to appropriate channels",
-        "Supported staff with office responsibilities to increase case management efficiency by 60%"
-      ],
-    },
-    {
-      title: "Administrative Assistant",
-      company_name: "City of Costa Mesa - Finance Dept",
-      icon: costamesa,
-      iconBg: "#383E56",
-      date: "Feb 2023 - June 2023",
-      points: [
-        "Assisted with budget transfers and authorizations which helped increase workflow efficiency by 40% and which also resulted in a new budget proposal finished before the deadline"
-      ],
-    },
-    {
-      title: "Business Development Representative",
-      company_name: "Bonterra Tech - Social Solutions",
-      icon: bonterra,
-      iconBg: "#383E56",
-      date: "Jun 2022 - Sept 2022",
-      points: [
-        "Qualified inbound & outbound leads by actively listening to non profit and healthcare organization needs and brought in $60,000 in revenue within 2 weeks",
-        "Effectively learned how to operate Salesforce, Gong, Outreach, and Intercom to interact and track prospective clients which increased likelihood of follow up by 100% and closing the sale by 80%",
+        "Established clear communication channels between clients, landlords, and internal teams, facilitating a smooth service delivery process",
+        "Analyzed client data and identified key issues, designing solutions that addressed root causes while staying within program parameters",
+        "Dynamically adapted solutions to evolving program parameters, ensuring project continuity and minimizing disruption",
+        "Developed and implemented a system to manage multiple client cases concurrently, maintaining accurate and up-to-date client information in the database",
+        "Abided by HIPAA tech protocol regulations to ensure client confidentiality and minimize data breaches"
       ],
     },
     {
@@ -181,7 +141,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2021 - Jun 2022",
       points: [
-        "Efficiently learned and memorized diverse on-site modalities and procedures to effectively manage the CareStream patient database, which enhanced workflow efficiency by 60% and increased number of appointments booked by 80%",
+        "Rapidly acquired knowledge of diverse medical procedures and applied that understanding to efficiently manage the CareStream patient database",
+        "Regularly updated CareStream database in order to ensure accuracy in scheduling patient procedures",
+        "Ensured accurate procedure scheduling by analyzing medical documentation from both medical and health insurance providers as well as patient medical history",
+        "Regularly communicated with medical and health insurance providers to assist and ensure optimal patient care"
       ],
     },
   ];
@@ -301,6 +264,27 @@ import {
       image: studypal,
       source_code_link: "https://github.com/study-pal",
     },
+    {
+      name: "Aspire2Thrive",
+      description:
+        "A web app outlining a business's core values and upcoming events to promote personal development of habits of success.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: wip,
+      source_code_link: "https://github.com/juliechan01/aspire2thrive.git",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

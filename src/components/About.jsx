@@ -16,7 +16,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Welcome to my portfolio! My name is Julie and I'm based out of Orange County in California. I am a recent graduate from Coding Dojo, certified in full stack software development. During my time there, I learned 3 stacks, which were Python/Flask, Java/Spring Boot, as well as full stack JavaScript, or MERN (MongoDB, Express.js, React.js, & Node.js). I have come to have a preference for front-end development yet am still open to doing full-stack work! I love seeking new challenges and coming up with creative yet aesthetically pleasing solutions. Let's work together to make your ideas become a reality!
+        Welcome to my portfolio! My name is Julie and I'm based out of Orange County in California. I am a recent graduate from Coding Dojo--now a part of Colorado Technical University, certified in full stack software development. During my time there, I learned 3 stacks, which were Python/Flask, Java/Spring Boot, as well as full stack JavaScript, or MERN (MongoDB, Express.js, React.js, & Node.js). I have come to have a preference for front-end development yet am still open to doing full-stack work! I love seeking new challenges and coming up with creative yet aesthetically pleasing solutions. Let's work together to make your ideas become a reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
